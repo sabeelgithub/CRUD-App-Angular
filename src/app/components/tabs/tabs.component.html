@@ -1,0 +1,11 @@
+<div class="md:flex justify-center w-full border-b border-gray-200 dark:border-gray-700">
+    <ul class="flex flex-wrap justify-center -mb-px text-sm font-medium text-center w-full" id="default-tab"
+      data-tabs-toggle="#default-tab-content" role="tablist">
+      <li class="mr-2" role="presentation" *ngFor="let t of tabs">
+        <button class="inline-block p-4 border-b-2 w-full " [ngClass]="{ 'text-white bg-black':t===selectedTab}"
+          id="channel-tab" data-tabs-target="#channel" type="button" role="tab" aria-controls="channel"
+          aria-selected="false" (click)="toggletab(t)">{{t}}</button>
+      </li>
+
+    </ul>
+  </div>

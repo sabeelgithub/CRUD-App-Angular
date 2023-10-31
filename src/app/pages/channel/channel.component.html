@@ -1,0 +1,13 @@
+<div class="bg-rose-400 h-screen w-full flex justify-center p-28">
+    <div class="bg-gray-300 md:w-1/2 rounded-lg">
+  
+  <!-- tabs -->
+    <app-tabs [tabs]="['Channels','Add Channels']" (clicked)="onTabChange($event)"></app-tabs>
+      <div id="default-tab-content">
+        <!-- content -->
+        <app-channel-create *ngIf="channelCreate"></app-channel-create>
+        <app-channel-list *ngIf="channelShow"></app-channel-list>
+      </div>
+    </div>
+  
+  </div>
