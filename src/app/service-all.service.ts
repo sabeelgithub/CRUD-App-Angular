@@ -12,7 +12,7 @@ import { Post } from './post';
 export class ServiceAllService {
   
   private apiURL = "http://localhost:8000/api/v1/notification_channels";
-  private authToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTg3MzYxMjEsInVzZXJfaWQiOiIxIn0.ldnlQubs0QXa6bORKnLheGSwR3Nk0KkRnML-1kNAX7A"
+  private authToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTg3NTYwODIsInVzZXJfaWQiOiIxIn0.ty3ALyGtIp7WmukirrgTwda7Xx-AtyC6XZORhY4RlWs"
   /*------------------------------------------
   Http Header Options
   --------------------------------------------*/

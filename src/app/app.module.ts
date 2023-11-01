@@ -9,6 +9,7 @@ import { TabsComponent } from './components/tabs/tabs.component';
 import { ChannelListComponent } from './components/channel-list/channel-list.component';
 import { ChannelCreateComponent } from './components/channel-create/channel-create.component';
 import { ChannelComponent } from './pages/channel/channel.component';
+import { HeadingComponent } from './components/heading/heading.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ChannelComponent } from './pages/channel/channel.component';
     TabsComponent,
     ChannelListComponent,
     ChannelCreateComponent,
-    ChannelComponent
+    ChannelComponent,
+    HeadingComponent
   ],
   imports: [
     BrowserModule,
